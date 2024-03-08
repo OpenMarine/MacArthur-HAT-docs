@@ -1,1 +1,3 @@
 site_name: MacArthur HAT Documentation
+theme:
+  name: readthedocs
