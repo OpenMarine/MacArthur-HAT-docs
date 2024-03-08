@@ -1,3 +1,6 @@
-site_name: MacArthur HAT Documentation
+site_name: MacArthur HAT v1.2 Documentation
 theme:
   name: readthedocs
+nav:
+  - Home: index.md
+  - Credits: credits.md
