@@ -1,8 +1,8 @@
-![MacArthur HAT](index/macarthur-render.jpg)
+![MacArthur HAT](https://raw.githubusercontent.com/OpenMarine/MacArthur-HAT/main/images/macarthur-render.jpg)
 
 # MacArthur HAT v1.2 Documentation
 
-After a few years of developing software for OpenPlotter, we have identified exactly what we need in terms of hardware to achieve our goals and the result is the [**MacArthur HAT**](https://shop.openmarine.net/home/23-macarthur-hat.html) (Hardware Attached on Top), an add-on board for **Raspberry Pi 4** running OpenPlotter v3. With this HAT we want to get the fully open-source boat to free ourselves from dependence on big companies and make our boats more respectful with the environment.
+After a few years of developing software for **OpenPlotter**, we have identified exactly what we need in terms of hardware to achieve our goals and the result is the **MacArthur HAT** (Hardware Attached on Top), an add-on board for **Raspberry Pi** running OpenPlotter. With this HAT we want to get the fully open-source boat to free ourselves from dependence on big companies and make our boats more respectful with the environment.
 
 This name is not accidental, we want to honor [**Ellen MacArthur**](https://en.wikipedia.org/wiki/Ellen_MacArthur) who is not only known for being an exceptional sailor but also for her commitment to the [circular economy](https://ellenmacarthurfoundation.org). The MacArthur HAT is an electronic circuit that is as difficult to recycle and has an environmental cost to manufacture as any modern circuit, but it is designed to last and stay in your boat forever.
 
@@ -12,19 +12,19 @@ You can also power the *Raspberry Pi* directly from the ship's batteries and it 
 
 Some of the MacArthur HAT features, such as the power management, the AIS receiver/transponder, the **1-Wire sensors** or the **I2C internal and external sensors**, are optional. In this way you only buy what you need saving money and we do not have to manufacture things that will never be used saving natural resources.
 
-MacArthur HAT is fully supported by [**OpenPlotter v3**](https://openplotter.readthedocs.io/en/3.x.x/description/what_is_openplotter.html) and all of its features can be easily configured with just a few clicks. No drivers needed. If you are not using OpenPlotter, you can still access all its features, but you have to enable all interfaces and configure the system manually.
+MacArthur HAT is fully supported by OpenPlotter and all of its features can be easily configured with just a few clicks. No drivers needed. If you are not using OpenPlotter, you can still access all its features, but you have to enable all interfaces and configure the system manually.
 
 ## Compatibility
 
 | Hardware | Software | Notes |
 | -------- | -------- |------ |
-| Raspberry Pi 3 | [OpenPlotter v3.x.x](https://openplotter.readthedocs.io/en/3.x.x/description/what_is_openplotter.html) (32-bit, 64-bit)                                             | NMEA 0183 inputs and outputs do not work. |
-| Raspberry Pi 4 | [OpenPlotter v3.x.x](https://openplotter.readthedocs.io/en/3.x.x/description/what_is_openplotter.html) (32-bit, 64-bit)<br>OpenPlotter v4.x.x (64-bit. Coming soon) |                                           |
-| Raspberry Pi 5 | OpenPlotter v4.x.x (64-bit. Coming soon)                                                                                                                            | Seatalk1 input does not work.             |
+| Raspberry Pi 3 | [OpenPlotter v3.x.x](https://openplotter.readthedocs.io/en/3.x.x/description/what_is_openplotter.html) (32-bit, 64-bit)                                             | NMEA 0183 does not work |
+| Raspberry Pi 4 | [OpenPlotter v3.x.x](https://openplotter.readthedocs.io/en/3.x.x/description/what_is_openplotter.html) (32-bit, 64-bit)<br>OpenPlotter v4.x.x (64-bit. Coming soon) |                         |
+| Raspberry Pi 5 | OpenPlotter v4.x.x (64-bit. Coming soon)                                                                                                                            | Seatalk1 does not work  |
 
 ## Features
 
-![MacArthur-HAT](index/macarthur-diagram.png)
+![MacArthur-HAT](https://raw.githubusercontent.com/OpenMarine/MacArthur-HAT/main/images/macarthur-diagram.png)
 
 - 1x NMEA 2000 non-isolated input and output. Data connection by SPI0-1. Optional 120Ω termination resistor included. Compatible with any CAN bus.
 - 2x NMEA 0183 opto-isolated inputs and 2x NMEA 0183 non-isolated outputs. Data connection by UART3 and UART5.
@@ -38,3 +38,23 @@ MacArthur HAT is fully supported by [**OpenPlotter v3**](https://openplotter.rea
 - Detachable screw connectors for easy mounting and maximum compatibility.
 - Includes input and output LEDs to check activity at any time.
 - No drivers needed.
+
+## License and sources
+
+Copyright Adrian Studer & Sailoog, 2023.
+
+This source describes Open Hardware and is licensed under the CERN-OHL-S v2.
+
+You may redistribute and modify this source and make products using it under the terms of the CERN-OHL-S v2 [https://ohwr.org/cern_ohl_s_v2.txt](https://ohwr.org/cern_ohl_s_v2.txt).
+
+This source is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE. Please see the CERN-OHL-S v2 for applicable conditions.
+
+Source: [https://github.com/OpenMarine/MacArthur-HAT](https://github.com/OpenMarine/MacArthur-HAT)
+
+As per CERN-OHL-S v2 section 4, should you produce hardware based on this source, you must where practicable maintain the Source Location visible on the external case of the MacArthur HAT or other products you make using this source.
+
+## Buy
+
+[**OpenMarine store** (Catalonia)](https://shop.openmarine.net/home/23-macarthur-hat.html)
+
+[**Wegmatt store** (US)](https://shop.wegmatt.com/collections/openmarine)

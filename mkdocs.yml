@@ -3,4 +3,5 @@ theme:
   name: readthedocs
 nav:
   - Home: index.md
+  - Header pinout: pinout.md
   - Credits: credits.md
