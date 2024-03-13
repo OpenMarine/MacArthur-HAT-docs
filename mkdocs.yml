@@ -24,5 +24,7 @@ nav:
   - Mounting the HAT: mounting.md
   - Power management: power.md
   - MAIANA AIS: maiana.md
+  - NMEA 2000: nmea2000.md
+  - Seatalk<sup>1</sup> input: seatalk.md
 
   - Credits: credits.md

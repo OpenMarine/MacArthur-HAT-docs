@@ -6,7 +6,7 @@ After a few years of developing software for **OpenPlotter**, we have identified
 
 This name is not accidental, we want to honor [**Ellen MacArthur**](https://en.wikipedia.org/wiki/Ellen_MacArthur) who is not only known for being an exceptional sailor but also for her commitment to the [circular economy](https://ellenmacarthurfoundation.org). The MacArthur HAT is an electronic circuit that is as difficult to recycle and has an environmental cost to manufacture as any modern circuit, but it is designed to last and stay in your boat forever.
 
-Its main function is to be able to communicate with any old or new marine electronic device using the proprietary and closed protocols **Seatalk1**, **NMEA 0183** or **NMEA 2000** and the free and open protocol **Signal K**. This means that when an on-board device dies, we are not forced to buy another of the same brand, that uses the same technology or even uses the same protocol because we can mix different devices. We will be able to recycle and reuse old devices giving them a second life or we will be able to gradually replace our old closed and proprietary models with new, cheaper, free and open ones.
+Its main function is to be able to communicate with any old or new marine electronic device using the proprietary and closed protocols **Seatalk<sup>1</sup>**, **NMEA 0183** or **NMEA 2000** and the free and open protocol **Signal K**. This means that when an on-board device dies, we are not forced to buy another of the same brand, that uses the same technology or even uses the same protocol because we can mix different devices. We will be able to recycle and reuse old devices giving them a second life or we will be able to gradually replace our old closed and proprietary models with new, cheaper, free and open ones.
 
 You can also power the *Raspberry Pi* directly from the ship's batteries and it has a **smart power management system** to turn it on and off automatically and **protect the SD card**. This HAT is **stackable** and can be used with other HATs such as the **Moitessier HAT** or the **dAISy HAT**. It can also be connected directly to the **MAIANA AIS transponder** without the need for an adapter.
 
@@ -20,7 +20,7 @@ MacArthur HAT is fully supported by OpenPlotter and all of its features can be e
 | -------- | -------- |------ |
 | Raspberry Pi 3 | [OpenPlotter v3.x.x](https://openplotter.readthedocs.io/en/3.x.x/description/what_is_openplotter.html) (32-bit, 64-bit)                                             | NMEA 0183 does not work |
 | Raspberry Pi 4 | [OpenPlotter v3.x.x](https://openplotter.readthedocs.io/en/3.x.x/description/what_is_openplotter.html) (32-bit, 64-bit)<br>OpenPlotter v4.x.x (64-bit. Coming soon) |                         |
-| Raspberry Pi 5 | OpenPlotter v4.x.x (64-bit. Coming soon)                                                                                                                            | Seatalk1 does not work  |
+| Raspberry Pi 5 | OpenPlotter v4.x.x (64-bit. Coming soon)                                                                                                                            | Seatalk<sup>1</sup> does not work  |
 
 ## Features
 
@@ -28,7 +28,7 @@ MacArthur HAT is fully supported by OpenPlotter and all of its features can be e
 
 - 1x NMEA 2000 non-isolated input and output. Data connection by SPI0-1. Optional 120Ω termination resistor included. Compatible with any CAN bus.
 - 2x NMEA 0183 opto-isolated inputs and 2x NMEA 0183 non-isolated outputs. Data connection by UART3 and UART5.
-- 1x Seatalk1 non-isolated input (not output). This connector can be also used as a general-purpose input.
+- 1x Seatalk<sup>1</sup> non-isolated input (not output). This connector can be also used as a general-purpose input.
 - 1x Connector for multiple 1-Wire temperature sensors such as the DS18B20 (exhaust, engine, fridge...). A 4.7KΩ pull-up resistor is included. This connector can be also used as a non-isolated general-purpose input/output.
 - 1x STEMMA QT/Qwiic connector for multiple I2C sensors (IMU, temperature, pressure, humidity, gas...). Compatible with most Adafruit and SparkFun sensors.
 - Optional 12V to 5V DC/DC converter via [add-on module](https://shop.openmarine.net/home/24-power-module-for-macarthur-hat.html) to power the Raspberry Pi and its peripherals (including touch screens up to 10 inches). When you turn off the main switch of your ship, OpenPlotter will shut down safely. OpenPlotter will start cleanly when the main switch is turned on again.

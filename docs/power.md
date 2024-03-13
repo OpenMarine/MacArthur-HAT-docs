@@ -18,7 +18,7 @@ One of the main problems with Raspberry Pi based systems is the corruption of SD
 
 After the software configuration just close the main switch to start OpenPlotter and open the main switch to shutdown OpenPlotter cleanly no matter how much time the system needs. When the power module cuts the current, it is still connected to the battery, but the consumption is only 0.1 mA.
 
-If you want to integrate OpenPlotter into your NMEA 2000 or Seatalk1 network using the MacArthur HAT, read the corresponding chapters to learn how to wire correctly.
+If you want to integrate OpenPlotter into your NMEA 2000 or Seatalk<sup>1</sup> network using the MacArthur HAT, read the corresponding chapters to learn how to wire correctly.
 
 ## Configuration
 

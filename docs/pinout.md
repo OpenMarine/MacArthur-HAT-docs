@@ -31,7 +31,7 @@
 | | | GPIO6 | <span style="color:black">31</span> - <span style="color:red">32</span> | GPIO12 | <span style="font-size:12px">UART5 TX</span> | <span style="font-size:12px">NMEA 0183<br>TX2*</span> |
 | <span style="font-size:12px">NMEA 0183<br>RX2*</span> | <span style="font-size:12px">UART5 RX</span>| GPIO13 | <span style="color:red">33</span> - <span style="color:green">34</span> | GND | | |
 | <span style="font-size:12px">1-Wire sensors<br>GPIO</span> | <span style="font-size:12px">1W/GPIO</span>| GPIO19 | <span style="color:red">35</span> - <span style="color:black">36</span> | GPIO16 | | |
-| <span style="font-size:12px">Power Off</span> | <span style="font-size:12px">GPIO</span>| GPIO26 | <span style="color:red">37</span> - <span style="color:red">38</span> | GPIO20 | <span style="font-size:12px">GPIO</span> | <span style="font-size:12px">Seatalk1  RX<br>GPIO</span> |
+| <span style="font-size:12px">Power Off</span> | <span style="font-size:12px">GPIO</span>| GPIO26 | <span style="color:red">37</span> - <span style="color:red">38</span> | GPIO20 | <span style="font-size:12px">GPIO</span> | <span style="font-size:12px">Seatalk<sup>1</sup>  RX<br>GPIO</span> |
 | | | GND | <span style="color:green">39</span> - <span style="color:red">40</span> | GPIO21 | <span style="font-size:12px">GPIO</span> | <span style="font-size:12px">Shutdown</span> |
 
 *If you want to use these GPIOs for other purposes, note that they all have pull-up resistors.
