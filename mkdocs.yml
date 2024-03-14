@@ -1,20 +1,8 @@
 site_name: MacArthur HAT v1.2 Documentation
+use_directory_urls: false
+site_dir: MacArthur_HAT_docs_download
 theme:
   name: readthedocs
-  icon:
-    admonition:
-      note: octicons/tag-16
-      abstract: octicons/checklist-16
-      info: octicons/info-16
-      tip: octicons/squirrel-16
-      success: octicons/check-16
-      question: octicons/question-16
-      warning: octicons/alert-16
-      failure: octicons/x-circle-16
-      danger: octicons/zap-16
-      bug: octicons/bug-16
-      example: octicons/beaker-16
-      quote: octicons/quote-16
 markdown_extensions:
   - attr_list
   - admonition
@@ -32,3 +20,4 @@ nav:
   - 1-Wire - alternative uses: 1walt.md
   - I2C - sensors: i2c.md
   - Credits: credits.md
+  - Download these docs: download.md
