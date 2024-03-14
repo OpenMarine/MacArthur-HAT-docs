@@ -25,6 +25,10 @@ nav:
   - Power management: power.md
   - MAIANA AIS: maiana.md
   - NMEA 2000: nmea2000.md
-  - Seatalk<sup>1</sup> input: seatalk.md
-
+  - NMEA 0183: nmea0183.md
+  - Seatalk<sup>1</sup> - input: seatalk.md
+  - Seatalk<sup>1</sup> - alternative uses: seatalkalt.md
+  - 1-Wire - sensors: 1w.md
+  - 1-Wire - alternative uses: 1walt.md
+  - I2C - sensors: i2c.md
   - Credits: credits.md

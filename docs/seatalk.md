@@ -1,4 +1,4 @@
-# Seatalk<sup>1</sup> input
+# Seatalk<sup>1</sup> - input
 
 Seatalk<sup>1</sup> is an old and outdated communication protocol, but it is still quite present on many boats. The Seatalk<sup>1</sup> bus has 3 wires: **black** for GND, **yellow** for data, and **red** for power.
 
