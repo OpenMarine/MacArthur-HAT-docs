@@ -6,6 +6,8 @@ theme:
 markdown_extensions:
   - attr_list
   - admonition
+  - toc:
+      permalink: true
 nav:
   - Home: index.md
   - Header pinout: pinout.md

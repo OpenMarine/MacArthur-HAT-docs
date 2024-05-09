@@ -39,6 +39,16 @@ MacArthur HAT is fully supported by OpenPlotter and all of its features can be e
 - Includes input and output LEDs to check activity at any time.
 - No drivers needed.
 
+## Safety
+
+!!! important
+	Most of the connections between the Raspberry Pi, the MacArthur HAT and your boat are not isolated. To avoid damaging the Raspberry Pi or MacArthur HAT, it is therefore important that everyone agrees on what represents ground, to which all other voltages are referenced.
+
+	To ensure this, make sure that there is always a connection from the MacArthur HAT to the boat's ground before making any other connection. The easiest way to do this, is through the 12V/GND connector on the MacArthur HAT. Always make this connection first, and break it last. Do this even if you are not powering the Pi from 12V.
+
+!!! note
+	We are aware of the electrical gremlins that lure in ground loops caused by redundant grounding. However, those gremlins typically are less fatal to our equipment than grossly diverging ground potentials. So until we introduce a HAT with fully isolated interfaces, we think a conservative approach to grounding is the safest option.
+
 ## License and sources
 
 Copyright Adrian Studer & Sailoog, 2023.

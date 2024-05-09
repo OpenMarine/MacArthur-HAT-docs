@@ -8,6 +8,9 @@ Another application could be to detect when a reed switch has been activated. In
 
 ![Seatalk<sup>1</sup> - alternative uses](seatalkalt/flost-switch.png)
 
+!!! important
+    Always follow our [safety](index.md#safety) tips before making any connection.
+
 ## LEDs
 
 □ off | ■■■ blinking |  ▬▬ fixed

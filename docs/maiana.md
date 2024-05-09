@@ -6,6 +6,9 @@ You can connect a MAIANA AIS base kit directly to the MacArthur HAT using a Cat5
 
 ![Wiring](maiana/maiana.png)
 
+!!! important
+    Always follow our [safety](index.md#safety) tips before making any connection.
+
 !!! warning ""
 
     ![Attention](index/attention.png){ align=left } Do not connect any device other than the MAIANA base kit. Confusing this RJ45 connector with the RJ45 connector of the Raspberry Pi can cause damage to both devices.

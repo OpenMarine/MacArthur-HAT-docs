@@ -8,11 +8,17 @@ There are two ways to connect I2C sensors to the MacArthur HAT, externally via S
 
 ![Internal](i2c/imu.png)
 
+!!! important
+    Always follow our [safety](index.md#safety) tips before making any connection.
+
 The internally mounted sensors are compact and very easy to install but they are affected by the temperature of the Raspberry and make it impossible to read some parameters such as pressure when our system is inside a sealed box. Maybe it would not be the perfect place for environment sensors, but it is the perfect place for an IMU sensor and get heading, heel and trim as shown in the image above.
 
 ## External
 
 ![External](i2c/i2c.png)
+
+!!! important
+    Always follow our [safety](index.md#safety) tips before making any connection.
 
 Externally mounted sensors will be less affected by other devices since we can move them away. We can also connect multiple sensors in line to the same bus. However, the I2C bus is not designed to support long distances and we will start getting invalid readings when the cable we use is longer than one meter. If you need long distances, you must add an I2C amplifier like the LTC4311 module as shown in the image on the right. By connecting the amplifier at the beginning of the sensors chain, you can get up to 30 meters at the default frequency using quality cables.
 

@@ -10,6 +10,9 @@ This connector basically consists of a 1.6K pull-up resistor connected to the GP
 
 ![Input](1walt/switch.png)
 
+!!! important
+    Always follow our [safety](index.md#safety) tips before making any connection.
+
 By connecting a switch as shown in the image above, GPIO 19 will go **high** when the switch is **open** and **low** when the switch is **closed**.
 
 After wiring, go to the *GPIO app*, **Digital** tab and click **Add input**. Select **GPIO 19** in *GPIO* field and **none** in *internal pull resistor* field. Select a **state** and write a *message* for each of the possible *high* or *low* states. Finally select **visual** in *method* and click **OK** to check the operation of the switch.
@@ -22,8 +25,14 @@ Depending on how you connect the external device, in this case a LED, it will be
 
 ![Output1](1walt/led1.png)
 
+!!! important
+    Always follow our [safety](index.md#safety) tips before making any connection.
+
 When the external device is connected to **DATA** and **GND**, GPIO 19 will be high and the LED will turn on at startup (~3.3V). When you run the action “localhost-GPIO19: turn it high”, the LED will turn on (3.3V). When you run the action “localhost-GPIO19: turn it low”, the LED will turn off (~0V).
 
 ![Output2](1walt/led2.png)
+
+!!! important
+    Always follow our [safety](index.md#safety) tips before making any connection.
 
 When the external device is connected to **DATA** and **3.3V**, GPIO 19 will be low and the LED will stay off at startup (~0V). When you run the action “localhost-GPIO19: turn it high”, the LED will turn off (0V). When you run the action “localhost-GPIO19: turn it low”, the LED will turn on (~3.3V).

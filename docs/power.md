@@ -2,11 +2,18 @@
 
 This feature is optional, so you can also use all features of the MacArthur HAT by powering the Raspberry Pi using a 5V power supply as usual. On the other hand, if you choose to power the system from the MacArthur HAT, you will need to mount the power module which will also provide some extra functionality.
 
-One of the main problems with Raspberry Pi based systems is the corruption of SD cards due to power outages. We often turn off the power to our on-board electronics without remembering to shut down the Raspberry Pi OS and the consequences can be critical. There are currently several solutions based on supercapacitors or HATs with its own battery that detect power outages and automatically shut down the system, but they also have their drawbacks. Often the system takes too long to close some programs and needs more time than supercapacitors can offer. And solutions based on extra batteries add unnecessary complexity, why use an extra battery just to keep the system on until it shuts down when we can use our boat's?
+![Power module schema](power/power_schema.png)
+
+One of the main problems with Raspberry Pi based systems is the corruption of SD cards due to power outages. We often turn off the power to our on-board electronics without remembering to shut down the Raspberry Pi OS and the consequences can be critical.
+
+The power module provides regulated 5V to the Raspberry Pi. The power module is turned on, when 12V is connected to 12V SW, typically through a toggle switch. Once powered up, the Raspberry Pi keeps the power module enabled, until 12V SW is disconnected. The Raspberry Pi will then initiate a controlled shut down, and then as final step disable the power module. The power module stays turned off, until the 12V SW is connected to 12V again.
 
 ## Wiring with power module
 
 ![Wiring with power module](power/powering.png)
+
+!!! important
+    Always follow our [safety](index.md#safety) tips before making any connection.
 
 !!! warning ""
 

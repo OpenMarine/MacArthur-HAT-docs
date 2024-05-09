@@ -6,6 +6,9 @@ Seatalk<sup>1</sup> is an old and outdated communication protocol, but it is sti
 
 ![Wiring with power module](seatalk/seatalk-dcdc.png)
 
+!!! important
+    Always follow our [safety](index.md#safety) tips before making any connection.
+
 !!! note ""
 
     ![Attention](index/info.png){ align=left }<br> <span style="color:red">12V SW</span> must be connected for the power module to turn on.
@@ -18,6 +21,9 @@ When using the power module, if you open the **main switch**, all the devices on
 
 ![Wiring without power module](seatalk/seatalk-no-dcdc.png)
 
+!!! important
+    Always follow our [safety](index.md#safety) tips before making any connection.
+    
 If you are not using the power module, you will need to connect **yellow** wire to **DATA** connector, **red** wire to **12V SW** connector and also **black** wire to **GND** connector.
 
 If you open the **main switch**, all the devices on the Seatalk<sup>1</sup> bus will turn off (plotter, sensors, displays...) but OpenPlotter will stay on until you manually shut down the system and turn off the Raspberry Pi 5V power supply.

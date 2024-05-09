@@ -1,5 +1,8 @@
 # Mounting the HAT
 
+!!! warning
+	This chapter shows how to mount the MacArthur HAT directly on a Raspberry Pi. If you plan to use a cable, extension board or non-standard case, verify the pinout of the connector before mounting the MacArthur HAT. Connecting the MacArthur HAT in the wrong orientation may permanently damage the MacArthur HAT and/or the Raspberry Pi.
+
 ## Ground floor
 
 The MacArthur HAT is designed to work in conjunction with other boards. In this example, we are going to build a compact 5-floor system with a dAISy HAT on the top floor and an 8-inch touch screen on the ground floor to be installed on a panel inside the boat.
