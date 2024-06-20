@@ -23,7 +23,7 @@ There are times when you are not interested in sharing your position. To turn th
 
 ## Configuration
 
-To configure the MAIANA AIS, follow the steps in the [OpenPlotter manual](https://openplotter.readthedocs.io/en/latest/maiana/configuring.html). Remember that when using the MacArthur HAT, the MAIANA AIS connects via UART0.
+To configure the MAIANA AIS, follow the steps in the [OpenPlotter manual](https://openplotter.readthedocs.io/latest/maiana/configuring.html). Remember that when using the MacArthur HAT, the MAIANA AIS connects via UART0.
 
 
 ## LEDs

@@ -31,7 +31,7 @@ If you want to integrate OpenPlotter into your NMEA 2000 or Seatalk<sup>1</sup> 
 
 When the external switch is turned off, the MacArthur HAT tells OpenPlotter via a GPIO that it must initiate the shutdown immediately. OpenPlotter will use another GPIO to tell the HAT when the shutdown is complete so that the HAT can cut power to the Raspberry Pi. From that moment on, the HAT keeps listening to the external switch and when it is turned on it provides power to the Raspberry Pi again, starting OpenPlotter.
 
-We need to define in OpenPlotter which GPIOs are going to perform these tasks and we can do this easily using the *Settings* application:
+We need to define in OpenPlotter which GPIOs are going to perform these tasks and we can do this easily using the ![Settings](power/settings.png) *Settings* app:
 
 ![Configuration](power/power.png)
 

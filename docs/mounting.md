@@ -15,7 +15,7 @@ The touch screen is powered from the Raspberry Pi which is powered by the MacArt
 
 ## First floor
 
-Screw the Raspberry Pi 4 to the touch screen pillars using the 4x supplied 16mm M2.5 standoffs. Also plug in the extra-long stacking header extender provided.
+Screw the Raspberry Pi to the touch screen pillars using the 4x supplied 16mm M2.5 standoffs. Also plug in the extra-long stacking header extender provided.
 
 Do not forget to connect the 15PIN FPC cable to the DSI interface of the Raspberry Pi for video and touch screen data.
 
@@ -39,6 +39,6 @@ If you are not going to connect another HAT, you can now secure the MacArthur HA
 
 ## Fourth floor
 
-If we want to connect another HAT, we must use an extra GPIO header extender of normal size and 4x spacers of 20mm and M2.5. Finally, we will secure the dAISy HAT with 4x M2.5 screws.
+If we want to connect another HAT, we must use the extra GPIO header extender of normal size and the 4x spacers of 20mm and M2.5 also provided. Finally, we will secure the dAISy HAT with 4x M2.5 screws.
 
 ![Fourth floor](mounting/4floor.png)

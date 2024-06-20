@@ -24,4 +24,4 @@ Externally mounted sensors will be less affected by other devices since we can m
 
 ## Configuration
 
-I2C sensors are configured using the *I2C app*. Learn more about supported I2C sensors and their configuration in the [OpenPlotter manuals](https://openplotter.readthedocs.io/en/latest/i2c/i2c_app.html). IMU sensors for heading, trim and heel are an exception and are configured using the *Pypilot app*, learn more about it in the [OpenPlotter manual](https://openplotter.readthedocs.io/en/latest/pypilot/pypilot_app.html).
+I2C sensors are configured using the ![I2C](i2c/i2cicon.png) *I2C* app. Learn more about supported I2C sensors and their configuration in the [OpenPlotter manuals](https://openplotter.readthedocs.io/latest/i2c/i2c_app.html). IMU sensors for heading, trim and heel are an exception and are configured using the ![Pypilot](i2c/autopilot.png) *Pypilot* app, learn more about it in the [OpenPlotter manual](https://openplotter.readthedocs.io/latest/pypilot/pypilot_app.html).
