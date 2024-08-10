@@ -1,9 +1,9 @@
 # Seatalk<sup>1</sup> - input
 
 !!! important
-    The new Raspberry Pi model 5 introduced big hardware changes that caused the libraries used to get data from Seatalk<sup>1</sup>  to stop working. This forces us to create new libraries valid for all Raspberry Pi models which is not a trivial task and will take some time.
+    The new Raspberry Pi model 5 introduced big hardware changes that caused the libraries used to get data from Seatalk<sup>1</sup>  to stop working. This forces us to create new libraries which is not a trivial task and will take some time.
 
-    The content of this chapter only refers to [OpenPlotter v3](https://openplotter.readthedocs.io/3.x.x/) running on a Raspberry Pi model 4. We will add the necessary tools to [OpenPlotter v4](https://openplotter.readthedocs.io/4.x.x/) as soon as possible.
+    The content of this chapter only refers to [OpenPlotter v4](https://openplotter.readthedocs.io/4.x.x/) running on a Raspberry Pi model 4. We will add the necessary tools for Raspberry Pi model 5 as soon as possible.
 
 
 Seatalk<sup>1</sup> is an old and outdated communication protocol, but it is still quite present on many boats. The Seatalk<sup>1</sup> bus has 3 wires: **black** for GND, **yellow** for data, and **red** for power.
