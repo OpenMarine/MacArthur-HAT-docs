@@ -1,11 +1,5 @@
 # Seatalk<sup>1</sup> - input
 
-!!! important
-    The new Raspberry Pi model 5 introduced big hardware changes that caused the libraries used to get data from Seatalk<sup>1</sup>  to stop working. This forces us to create new libraries which is not a trivial task and will take some time.
-
-    The content of this chapter only refers to [OpenPlotter v4](https://openplotter.readthedocs.io/4.x.x/) running on a Raspberry Pi model 4. We will add the necessary tools for Raspberry Pi model 5 as soon as possible.
-
-
 Seatalk<sup>1</sup> is an old and outdated communication protocol, but it is still quite present on many boats. The Seatalk<sup>1</sup> bus has 3 wires: **black** for GND, **yellow** for data, and **red** for power.
 
 ## Wiring with power module
@@ -36,11 +30,15 @@ If you open the **main switch**, all the devices on the Seatalk<sup>1</sup> bus 
 
 ## Configuration
 
-To receive data via Seatalk<sup>1</sup> you need the *GPIO app*. Go to the **Seatalk<sup>1</sup> input** tab and click **Add**. Provide an ID for this connection, e.g. seatalk1, select the *GPIO 20*, check *Invert signal* and click **OK**.
+To receive data via Seatalk<sup>1</sup> you need the *GPIO app*. Go to the ![seatalk](seatalk/seatalk.png) **Seatalk1 input** tab and click ![](seatalk/sk.png) **Add**. Provide an *ID* for this connection, e.g. seatalk1, select *gpiod* in *GPIOD Library*, select the *GPIO 20*, check *Invert signal* and click **OK**.
 
 The Signal K server will restart, and you should start receiving data from the Seatalk<sup>1</sup> bus.
 
 ![Configuration](seatalk/seatalk1.png)
+
+!!! note
+
+    The ***gpiod*** library works on Raspberry Pi 3, 4, and 5 models, while the ***pigpio*** library only works on Raspberry Pi 3 and 4 models.
 
 ## LEDs
 

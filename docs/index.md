@@ -20,7 +20,7 @@ MacArthur HAT is fully supported by OpenPlotter and all of its features can be e
 | -------- | -------- |------ |
 | Raspberry Pi model 3 | [OpenPlotter v3.x.x](https://openplotter.readthedocs.io/3.x.x/description/what_is_openplotter.html)| NMEA 0183 does not work |
 | Raspberry Pi model 4 | [OpenPlotter v3.x.x](https://openplotter.readthedocs.io/3.x.x/description/what_is_openplotter.html)<br>[OpenPlotter v4.x.x](https://openplotter.readthedocs.io/4.x.x/description/what_is_openplotter.html)| |
-| Raspberry Pi model 5 | [OpenPlotter v4.x.x](https://openplotter.readthedocs.io/4.x.x/description/what_is_openplotter.html)| Seatalk<sup>1</sup> does not work yet |
+| Raspberry Pi model 5 | [OpenPlotter v4.x.x](https://openplotter.readthedocs.io/4.x.x/description/what_is_openplotter.html)| |
 
 ## Features
 
